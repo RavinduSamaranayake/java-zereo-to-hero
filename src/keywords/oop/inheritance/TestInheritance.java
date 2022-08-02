@@ -16,7 +16,8 @@ public class TestInheritance {
             default -> new Computer();
         };
         device.giveInput();
-        device.getOutput();
+        device.getOutput(); //This Computer is the example for Multiple behavior (Poly Morphic) of a class.
+        // this concept names as Polymorphism
     }
 
     public static void main(String[] args) {

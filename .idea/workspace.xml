@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1317b8cc-5242-4041-b972-29f52e36db76" name="Changes" comment="Java ZERO to HERO -1">
+    <list default="true" id="1317b8cc-5242-4041-b972-29f52e36db76" name="Changes" comment="Add a comment">
+      <change afterPath="$PROJECT_DIR$/src/keywords/oop/inheritance/computer/Network.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/keywords/oop/inheritance/computer/Portable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/keywords/oop/inheritance/TestInheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/keywords/oop/inheritance/TestInheritance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/keywords/oop/inheritance/computer/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/keywords/oop/inheritance/computer/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/keywords/oop/inheritance/computer/Desktop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/keywords/oop/inheritance/computer/Desktop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/keywords/oop/inheritance/computer/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/keywords/oop/inheritance/computer/Laptop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -30,14 +36,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Ravindu/Desktop/Career/Java Playground/basic-concepts/basic-concepts-01"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ravindu/Desktop/Career/Java Playground/basic-concepts/basic-concepts-01&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.TestInheritance">
     <configuration name="ArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="keywords.collectionTests.ArrayTest" />
@@ -101,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659453719470</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add a comment">
+      <created>1659454584790</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659454584790</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +130,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Java ZERO to HERO -1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java ZERO to HERO -1" />
+    <MESSAGE value="Add a comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add a comment" />
   </component>
 </project>

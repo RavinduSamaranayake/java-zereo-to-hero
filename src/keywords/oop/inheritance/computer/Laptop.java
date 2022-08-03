@@ -17,11 +17,21 @@ public class Laptop extends Computer{
         System.out.println("Laptop Output here..............");
     }
 
+    @Override
+    public void code() {
+        System.out.println("Laptop coding..........");
+    }
+
     public String getDisplayType() {
         return displayType;
     }
 
     public void setDisplayType(String displayType) {
         this.displayType = displayType;
+    }
+
+    @Override
+    public void getPortableType() {
+
     }
 }

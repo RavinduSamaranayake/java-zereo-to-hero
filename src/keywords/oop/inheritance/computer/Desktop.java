@@ -17,11 +17,22 @@ public class Desktop extends Computer{
         System.out.println("Desktop Output here.................");
     }
 
+    @Override
+    public void code() {
+        System.out.println("Desktop coding..........");
+    }
+
+
     public String getMonitorType() {
         return monitorType;
     }
 
     public void setMonitorType(String monitorType) {
         this.monitorType = monitorType;
+    }
+
+    @Override
+    public void getPortableType() {
+        System.out.println("Desktop Portable Type....");
     }
 }

@@ -16,7 +16,8 @@ public class SortingTest {
         Collections.sort(employeeList, new Comparator<Employee>() {
             @Override
             public int compare(Employee o1, Employee o2) {
-                return o1.getEmpId().compareTo(o2.getEmpId());
+                return 0;
+                //return o1.getEmpId().compareTo(o2.getEmpId());
             }
         });
         employeeList.forEach(e-> System.out.println(e.getEmpName()));
@@ -36,6 +37,8 @@ public class SortingTest {
         employeeList.sort((o1,o2) ->o1.getEmpId().compareTo(o2.getEmpId()));
         employeeList.forEach(e-> System.out.println(e.getEmpName()));
 
+
+
         System.out.println("**************************using Comparator comparing(JAVA 8)*****************************");
 
         employeeList.sort(Comparator.comparing(Employee::getEmpId));
@@ -43,6 +46,9 @@ public class SortingTest {
 
         System.out.println("**************************Reverse Sorting(JAVA 8)*****************************");
 
+        //Why Comparator.reversed() is not working? the problem is reversed() is a default method.
+        // but comparing() is the Static method when we call to compare it returns a Comparator<> instance then we can call like this
+        // Comparator.reverseOrder() is a static method so that we can directly call it like this
         employeeList.sort(Comparator.comparing(Employee::getEmpId).reversed());
         employeeList.forEach(e-> System.out.println(e.getEmpName()));
 
@@ -69,6 +75,11 @@ public class SortingTest {
         System.out.println("**************************sorting using conditions with Comparator(JAVA 8)*****************************");
 
         employeeList.sort(Comparator.comparing(Employee::getEmpId).thenComparing(Employee::getEmpName));
+        employeeList.forEach(e-> System.out.println(e.getEmpName()));
+
+        System.out.println("**************************using comparable for employee lambda(JAVA 8)*****************************");
+
+        employeeList.sort(Employee::compareTo);
         employeeList.forEach(e-> System.out.println(e.getEmpName()));
 
     }

@@ -1,34 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1317b8cc-5242-4041-b972-29f52e36db76" name="Changes" comment="All about Interfaces and abstraction">
-      <change afterPath="$PROJECT_DIR$/src/keywords/collectionTests/ArrayListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/keywords/collectionTests/MapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/keywords/comparator/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/keywords/comparator/SortingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/keywords/exception/CheckedExceptionPropagation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/keywords/exception/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/keywords/exception/OverrideTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/keywords/exception/OverrideTestChild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/keywords/exception/UnCheckedExceptionPropagation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/keywords/interviews/AlgoTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/keywords/interviews/TestStreamMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/keywords/streamApi/CollectionsToStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/keywords/streamApi/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/designpatterns/factory/CommercialPlan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/designpatterns/factory/DomesticPlan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/designpatterns/factory/GenerateBill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/designpatterns/factory/GetPlanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/designpatterns/factory/InstitutionalPlan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/designpatterns/factory/Plan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/designpatterns/singleton/DBConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/designpatterns/singleton/SingletonPatternEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/designpatterns/singleton/TestDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/designpatterns/singleton/interviewQues/SingleCon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/designpatterns/singleton/interviewQues/SingletonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1317b8cc-5242-4041-b972-29f52e36db76" name="Changes" comment="Covered base functionalities stream,collections,comparator,.. etc.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/keywords/oop/inheritance/TestInheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/keywords/oop/inheritance/TestInheritance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/keywords/comparator/SortingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/keywords/comparator/SortingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/keywords/streamApi/CollectionsToStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/keywords/streamApi/CollectionsToStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/keywords/streamApi/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/keywords/streamApi/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659542602711</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Covered base functionalities stream,collections,comparator,.. etc.">
+      <created>1661424225827</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661424225827</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,6 +185,7 @@
     <MESSAGE value="Java ZERO to HERO -1" />
     <MESSAGE value="Add a comment" />
     <MESSAGE value="All about Interfaces and abstraction" />
-    <option name="LAST_COMMIT_MESSAGE" value="All about Interfaces and abstraction" />
+    <MESSAGE value="Covered base functionalities stream,collections,comparator,.. etc." />
+    <option name="LAST_COMMIT_MESSAGE" value="Covered base functionalities stream,collections,comparator,.. etc." />
   </component>
 </project>

@@ -41,7 +41,7 @@ public class CollectionsToStream {
         Employee e2 = new Employee("2","kushan");
 //        employeeStream.sorted(employeeComparator)
 //                .forEach(employee -> System.out.println(employee.getEmpName()));
-        int comVal = e1.compare(e1,e2);
+        int comVal = e1.compareTo(e2);
         System.out.println("********Com Value *********"+comVal);
     }
     public static void main(String[] args) {

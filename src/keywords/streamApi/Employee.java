@@ -6,7 +6,7 @@ import java.util.Comparator;
  * @author Ravindu
  * 8/24/2022
  */
-public class Employee implements Comparator<Employee> {
+public class Employee implements Comparable<Employee> { //this Comparable<Employee> make sense now Employee objs can compare with other Employee objs
     private String empId;
     private String empName;
 
@@ -32,15 +32,7 @@ public class Employee implements Comparator<Employee> {
     }
 
     @Override
-    public int compare(Employee o1, Employee o2) {
-        if(o1.getEmpId().length()>o2.getEmpId().length()){
-            return 1;
-        }
-        return 0;
-    }
-
-    @Override
-    public Comparator<Employee> reversed() {
-        return Comparator.super.reversed();
+    public int compareTo(Employee o) {
+        return this.empId.compareTo(o.getEmpId());
     }
 }

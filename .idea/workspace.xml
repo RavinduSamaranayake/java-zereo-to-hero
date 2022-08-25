@@ -1,14 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1317b8cc-5242-4041-b972-29f52e36db76" name="Changes" comment="Add a comment">
-      <change afterPath="$PROJECT_DIR$/src/keywords/oop/inheritance/computer/Network.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/keywords/oop/inheritance/computer/Portable.java" afterDir="false" />
+    <list default="true" id="1317b8cc-5242-4041-b972-29f52e36db76" name="Changes" comment="All about Interfaces and abstraction">
+      <change afterPath="$PROJECT_DIR$/src/keywords/collectionTests/ArrayListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/keywords/collectionTests/MapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/keywords/comparator/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/keywords/comparator/SortingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/keywords/exception/CheckedExceptionPropagation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/keywords/exception/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/keywords/exception/OverrideTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/keywords/exception/OverrideTestChild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/keywords/exception/UnCheckedExceptionPropagation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/keywords/interviews/AlgoTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/keywords/interviews/TestStreamMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/keywords/streamApi/CollectionsToStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/keywords/streamApi/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/designpatterns/factory/CommercialPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/designpatterns/factory/DomesticPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/designpatterns/factory/GenerateBill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/designpatterns/factory/GetPlanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/designpatterns/factory/InstitutionalPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/designpatterns/factory/Plan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/designpatterns/singleton/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/designpatterns/singleton/SingletonPatternEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/designpatterns/singleton/TestDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/designpatterns/singleton/interviewQues/SingleCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/designpatterns/singleton/interviewQues/SingletonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/keywords/oop/inheritance/TestInheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/keywords/oop/inheritance/TestInheritance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/keywords/oop/inheritance/computer/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/keywords/oop/inheritance/computer/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/keywords/oop/inheritance/computer/Desktop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/keywords/oop/inheritance/computer/Desktop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/keywords/oop/inheritance/computer/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/keywords/oop/inheritance/computer/Laptop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +38,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -36,21 +56,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ravindu/Desktop/Career/Java Playground/basic-concepts/basic-concepts-01&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Ravindu/Desktop/Career/Java Playground/basic-concepts/basic-concepts-01/src/patterns/designpatterns/singleton/interviewQues",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
-  <component name="RunManager" selected="Application.TestInheritance">
-    <configuration name="ArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="keywords.collectionTests.ArrayTest" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ravindu\Desktop\Career\Java Playground\basic-concepts\basic-concepts-01\src\patterns\designpatterns\singleton\interviewQues" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="keywords.comparator" />
+      <recent name="keywords.exception" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SortingTest">
+    <configuration name="AlgoTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="keywords.interviews.AlgoTest1" />
       <module name="basic-concepts-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="keywords.collectionTests.*" />
+          <option name="PATTERN" value="keywords.interviews.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectionsToStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="keywords.streamApi.CollectionsToStream" />
+      <module name="basic-concepts-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="keywords.streamApi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,11 +105,11 @@
       </method>
     </configuration>
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Driver" />
+      <option name="MAIN_CLASS_NAME" value="keywords.exception.Driver" />
       <module name="basic-concepts-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="keywords.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +117,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestInheritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="keywords.oop.inheritance.TestInheritance" />
+    <configuration name="SortingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="keywords.comparator.SortingTest" />
       <module name="basic-concepts-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="keywords.oop.inheritance.*" />
+          <option name="PATTERN" value="keywords.comparator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStreamMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="keywords.interviews.TestStreamMax" />
+      <module name="basic-concepts-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="keywords.interviews.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,8 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestInheritance" />
-        <item itemvalue="Application.ArrayTest" />
+        <item itemvalue="Application.SortingTest" />
+        <item itemvalue="Application.CollectionsToStream" />
+        <item itemvalue="Application.TestStreamMax" />
+        <item itemvalue="Application.AlgoTest1" />
+        <item itemvalue="Application.Driver" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659454584790</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="All about Interfaces and abstraction">
+      <created>1659542602711</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659542602711</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,6 +200,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Java ZERO to HERO -1" />
     <MESSAGE value="Add a comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add a comment" />
+    <MESSAGE value="All about Interfaces and abstraction" />
+    <option name="LAST_COMMIT_MESSAGE" value="All about Interfaces and abstraction" />
   </component>
 </project>

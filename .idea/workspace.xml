@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1317b8cc-5242-4041-b972-29f52e36db76" name="Changes" comment="Covered base functionalities stream,collections,comparator,.. etc.">
+    <list default="true" id="1317b8cc-5242-4041-b972-29f52e36db76" name="Changes" comment="Comparator additional">
+      <change afterPath="$PROJECT_DIR$/src/common_interview/ArrayRelated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common_interview/Common.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common_interview/StringRelated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common_interview/SwivelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/keywords/collectionTests/ArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/keywords/collectionTests/ArrayListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/keywords/comparator/SortingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/keywords/comparator/SortingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/keywords/streamApi/CollectionsToStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/keywords/streamApi/CollectionsToStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/keywords/streamApi/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/keywords/streamApi/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -26,6 +34,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
   <component name="ProjectId" id="2ChVkvjN0gNibLHljD7670UCkhL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -33,18 +44,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Ravindu/Desktop/Career/Java Playground/basic-concepts/basic-concepts-01/src/patterns/designpatterns/singleton/interviewQues",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ravindu/Desktop/Career/Java Playground/basic-concepts/basic-concepts-01&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ravindu\Desktop\Career\Java Playground\basic-concepts\basic-concepts-01\src\patterns\designpatterns\singleton\interviewQues" />
@@ -54,13 +65,13 @@
       <recent name="keywords.exception" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortingTest">
-    <configuration name="AlgoTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="keywords.interviews.AlgoTest1" />
+  <component name="RunManager" selected="Application.ArrayRelated">
+    <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="keywords.collectionTests.ArrayListTest" />
       <module name="basic-concepts-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="keywords.interviews.*" />
+          <option name="PATTERN" value="keywords.collectionTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionsToStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="keywords.streamApi.CollectionsToStream" />
+    <configuration name="ArrayRelated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common_interview.ArrayRelated" />
       <module name="basic-concepts-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="keywords.streamApi.*" />
+          <option name="PATTERN" value="common_interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="keywords.exception.Driver" />
+    <configuration name="Common" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common_interview.Common" />
       <module name="basic-concepts-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="keywords.exception.*" />
+          <option name="PATTERN" value="common_interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStreamMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="keywords.interviews.TestStreamMax" />
+    <configuration name="StringRelated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common_interview.StringRelated" />
       <module name="basic-concepts-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="keywords.interviews.*" />
+          <option name="PATTERN" value="common_interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayRelated" />
         <item itemvalue="Application.SortingTest" />
-        <item itemvalue="Application.CollectionsToStream" />
-        <item itemvalue="Application.TestStreamMax" />
-        <item itemvalue="Application.AlgoTest1" />
-        <item itemvalue="Application.Driver" />
+        <item itemvalue="Application.StringRelated" />
+        <item itemvalue="Application.ArrayListTest" />
+        <item itemvalue="Application.Common" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661424225827</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Comparator additional">
+      <created>1661433989728</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661433989728</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,6 +204,7 @@
     <MESSAGE value="Add a comment" />
     <MESSAGE value="All about Interfaces and abstraction" />
     <MESSAGE value="Covered base functionalities stream,collections,comparator,.. etc." />
-    <option name="LAST_COMMIT_MESSAGE" value="Covered base functionalities stream,collections,comparator,.. etc." />
+    <MESSAGE value="Comparator additional" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comparator additional" />
   </component>
 </project>

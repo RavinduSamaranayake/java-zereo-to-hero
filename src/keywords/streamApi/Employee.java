@@ -32,6 +32,14 @@ public class Employee implements Comparable<Employee> { //this Comparable<Employ
     }
 
     @Override
+    public String toString() {
+        return "Employee{" +
+                "empId='" + empId + '\'' +
+                ", empName='" + empName + '\'' +
+                '}';
+    }
+
+    @Override
     public int compareTo(Employee o) {
         return this.empId.compareTo(o.getEmpId());
     }

@@ -41,7 +41,7 @@ public class SortingTest {
 
         System.out.println("**************************using Comparator comparing(JAVA 8)*****************************");
 
-        employeeList.sort(Comparator.comparing(Employee::getEmpId));
+        employeeList.sort(Comparator.comparing(employee1 -> employee1.getEmpId()));
         employeeList.forEach(e-> System.out.println(e.getEmpName()));
 
         System.out.println("**************************Reverse Sorting(JAVA 8)*****************************");
@@ -49,8 +49,11 @@ public class SortingTest {
         //Why Comparator.reversed() is not working? the problem is reversed() is a default method.
         // but comparing() is the Static method when we call to compare it returns a Comparator<> instance then we can call like this
         // Comparator.reverseOrder() is a static method so that we can directly call it like this
-        employeeList.sort(Comparator.comparing(Employee::getEmpId).reversed());
+        employeeList.sort(Comparator.comparing((Employee employee) -> employee.getEmpId()).reversed());
         employeeList.forEach(e-> System.out.println(e.getEmpName()));
+
+        Employee emp = Collections.min(employeeList,Comparator.comparing(Employee::getEmpId));
+        System.out.println("Minimum element --------->>"+emp.toString());
 
         System.out.println("**************************sorting using conditions(JAVA 8)*****************************");
 
